@@ -1,9 +1,9 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-}
+} */
 
 body {
     position: relative;
@@ -18,4 +18,21 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+}
+
+.center .wrapper {
+    position: relative;
+    padding: 25px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+
+.center .wrapper:hover {
+    transform: scale(1.01) rotate(180deg);
+}
+
+ul {
+    list-style-type: circle;
 }
