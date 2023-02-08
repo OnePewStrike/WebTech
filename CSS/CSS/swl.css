@@ -1,61 +1,31 @@
-.center {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+div {
+  margin: 20px 20px;
+  height: 150px;
+  width: 220px;
+  background-color: yellow;
+  padding: 50px 50px;
+  font-size: 1.5rem;
+  border: 20px solid red;
+  border-bottom: 20px solid lightpink;
+  border-right: 20px solid lightpink;
 }
 
-.center .first-big-box {
-    height: 200px;
-    width: 200px;
-    padding: 30px;
-    background-color: yellow;
-    border-top: 15px red solid;
-    border-left: 15px red solid;
-    border-right: 15px palegoldenrod solid;
-    border-bottom: 15px palegoldenrod solid;
+b {
+  margin: 0px 30px;
+  background-color: lightblue;
+  padding: 5px 0px;
+  font-size: 1.25rem;
+  border: 8px solid blue;
 }
 
-.center .first-big-box p {
-    margin-top: 30px;
-    margin-left: 30px;
-}
-
-.center .group-of-box {
-    margin: 15px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.center .group-of-box .box {
-    height: 20px;
-    width: 55px;
-    padding: 5px;
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid blue;
-}
-
-.center .group-of-box .box:nth-child(2) {
-    margin: 0 30px;
-}
-
-.center .third-big-box {
-    height: 200px;
-    width: 140px;
-    padding: 10px;
-    background-color: greenyellow;
-    border-top: 60px green solid;
-    border-left: 60px green solid;
-    border-bottom: 60px grey solid;
-    border-right: 60px grey solid;
-}
-
-.center .third-big-box p {
-    margin-left: 30px;
-    margin-top: 30px;
+p {
+  margin: 20px 20px;
+  height: 150px;
+  width: 125px;
+  background-color: lightgreen;
+  padding: 50px 50px;
+  font-size: 1.5rem;
+  border: 70px solid green;
+  border-bottom: 70px solid grey;
+  border-right: 70px solid grey;
 }
