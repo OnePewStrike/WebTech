@@ -1,0 +1,21 @@
+body { 
+    /* background-attachment: url('assets/images/bg.png');
+    background-repeat: no-repeat; */
+    background-color: gainsboro;
+}
+
+.center {
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: blue;
+    text-align: center;
+    font-family: arial;
+    font-size: medium;
+    font-style: oblique;
+}
